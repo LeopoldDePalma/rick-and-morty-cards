@@ -1,0 +1,48 @@
+.container {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top: 128px;
+  padding-bottom: 64px;
+}
+
+.cardsContainer {
+  padding: 40px 0;
+}
+
+.cardsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.cardWrapper {
+  width: 100%;
+  max-width: 345px;
+  min-width: 280px;
+}
+
+@media (min-width: 600px) {
+  .cardWrapper {
+    width: calc(50% - 32px);
+  }
+}
+
+@media (min-width: 900px) {
+  .cardWrapper {
+    width: calc(33.333% - 32px);
+  }
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  color: #666666;
+  font-size: 1.1rem;
+}

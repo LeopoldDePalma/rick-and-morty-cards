@@ -1,0 +1,49 @@
+.container {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.title {
+  text-align: center;
+  color: #1a1a1a;
+  font-weight: 600;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.card {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: goldenrod;
+}
+
+.description {
+  margin-top: 12px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 16px;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  color: #666666;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-top: 96px;
+    padding-bottom: 32px;
+  }
+}
